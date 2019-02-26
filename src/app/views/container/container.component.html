@@ -1,0 +1,39 @@
+<div class="box-container">
+    <div class="box">
+        <h1><span>{{title}}</span></h1>
+        <div class="row">
+            <div class="col-md-8">
+                <chart [options]="lineOptions"></chart>
+            </div>
+            <div class="col-md-4 line-box">
+                <h2>100</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 text-center">
+                <p>ServiceHealthScore</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <chart [options]="doughnutOptions"></chart>
+            </div>
+            <div class="col-md-6 text-center" style="padding: 24px 0px 0px 36px;">
+                <div class="pie-box">
+                    <div class="text-center">
+                        <h3>220</h3>
+                        <h6>ms</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <p>Availability</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <p>Response Time</p>
+            </div>
+        </div>
+    </div>
+</div>

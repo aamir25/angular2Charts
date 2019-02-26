@@ -1,0 +1,47 @@
+.box-container {
+    width: 325px;
+}
+
+.box {
+    border: 1px solid #000000;
+    padding: 15px 3px 10px 3px;
+    margin: 10px;
+}
+
+div h1{
+    text-align: center;
+    margin-top: -35px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+div h1 span{
+    background-color: white;
+}
+
+.line-box {
+    height: 100px;
+    width: 90px;
+    background-color: #93c572
+}
+
+.line-box h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+.pie-box {
+    height: 100px;
+    width: 90px;
+    background-color: #93c572;
+}
+
+.pie-box h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.pie-box div {
+    padding-top: 10px;
+}
