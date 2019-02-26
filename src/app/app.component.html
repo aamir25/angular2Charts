@@ -1,15 +1,25 @@
-<div class="container">
-  <div class="row">
-      <container class="col-md-3" [title] = 'P2N'></container>
-      <container class="col-md-3" [title] = 'APGEE'></container>
-      <container class="col-md-3" [title] = 'Orchestra'></container>
-      <div class="col-md-3">
-          <div class="row">
-              <container class="col-md-12" [title] = 'Scoring'></container>
-          </div>
-          <div class="row">
-              <container class="col-md-12" [title] = 'Drone'></container>
-          </div>
-      </div>
-  </div>
+<div>
+    <div class="row">
+        <div class="col-md-3 top-center">
+            <container [title]='P2N'></container>
+            <span class="glyphicon glyphicon-arrow-right"></span>
+        </div>
+        <div class="col-md-3 top-center">
+            <container [title]='APGEE'></container>
+            <span class="glyphicon glyphicon-arrow-right"></span>
+        </div>
+        <div class="col-md-3 top-center">
+            <container [title]='Orchestra'></container>
+            <span class="glyphicon glyphicon-arrow-right arrow1"></span>
+            <span class="glyphicon glyphicon-arrow-right arrow2"></span>
+        </div>
+        <div class="col-md-3">
+            <div class="row">
+                <container class="col-md-12" [title]='Scoring'></container>
+            </div>
+            <div class="row">
+                <container class="col-md-12" [title]='Drone'></container>
+            </div>
+        </div>
+    </div>
 </div>

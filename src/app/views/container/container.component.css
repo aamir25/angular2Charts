@@ -1,5 +1,7 @@
 .box-container {
     width: 325px;
+    display: inline-block;
+    position: relative;
 }
 
 .box {

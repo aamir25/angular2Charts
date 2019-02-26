@@ -1,8 +1,28 @@
 .container {
     padding-top: 20px;
-    margin: 0px;
 }
 
 .row {
-    width: 100vw;
+    width: 100%;
+}
+
+.top-center {
+    display: inline-flex;
+    position: relative;
+    top: 175px;
+}
+
+.glyphicon-arrow-right {
+    position: relative;
+    top: 175px;
+    font-size: 20px;
+}
+
+.arrow1 {
+    top: 100px;
+}
+
+.arrow2 {
+    top: 300px;
+    right: 22px;
 }
